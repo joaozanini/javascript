@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nerd</title>
+</head>
+<body>
+    <div id="press" onclick="clicar()" onmouseenter="entrar()"  onmouseout="sair()">
+        precione
+    </div>
+
+    <script>
+        var a = window.document.getElementById('press')
+        function clicar() { 
+            a.innerText = 'clicou!'
+            a.style.backgroundColor = 'red'
+        }
+
+        function entrar() {
+            a.innerText = 'entrou!'
+        }
+
+        function sair(){
+            a.innerText = 'saiu'
+            a.style.backgroundColor = 'blue'
+        }
+            
+    </script>
+</body>
+</html>

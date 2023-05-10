@@ -1,0 +1,15 @@
+body{
+    color: white;
+}
+
+#press{
+    display: flex;
+
+    width: 200px;
+    height: 200px;
+    background-color: rgb(38, 114, 255);
+
+    justify-content: center;
+    align-items: center;
+}
+
